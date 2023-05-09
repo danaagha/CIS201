@@ -1,0 +1,141 @@
+body {
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.site
+{
+    font-family: 'Holtwood One SC', sans-serif;
+}
+.text-logo
+{
+      font-family: 'Holtwood One SC', sans-serif;
+    color: FF9633;
+    font-size: 50px;
+    padding: 40px 0px;
+    text-align: center;
+	
+}
+.text-logo .glyphicon 
+{
+    color:#e7480f;
+   
+}
+
+.caption > h1
+{
+    color: black;
+    font-size: 18px;
+}
+
+
+.btn-order
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e7480f;
+    text-decoration: none;
+   
+    border-radius: 5px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: transparent;
+  color: FF9633;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: FF9633;
+  color: white;
+}
+
+
+
+
+
+.nav-pills li a.active {
+   background-color: FF9633;
+  color: red;
+}
+.nav li a:hover {
+  background-color: FF9633;
+  color: FF9633;
+}
+
+.nav-pills li a {
+
+  color: white;
+}
+
+
+
+
+*, :after,
+      :before {
+        margin: 0;
+        padding: 0;
+        box-sizing:30px;
+position:center;
+
+		
+      }
+    
+      i {
+        font-size: 28px;
+        color: white;
+        position:center;
+		
+		
+      }
+
+      button {
+        margin-top: 19px;
+        padding: 10px 25px;
+        background-color: #FFA500;
+        border: 2px solid transparent;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 1px 2px #aaa;
+        transition: all 250ms ease-in-out;
+        outline: none;
+;
+      }
+
+      button:hover {
+        border: 2px solid #d22b2b;
+        background-color: #fff;
+        color: FF9033;
+        transform: scale(0.9);
+      }
+
+      .itemsCount {
+        position: top left;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: none;
+        color: #fff;
+        padding: 2px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+
+     
